@@ -1,0 +1,195 @@
+/*navigation bar styles */
+
+.navbar {
+    margin-top: -3%;
+}
+
+.nav-link {
+    padding: 70px;
+}
+
+li a:hover {
+    color: red;
+}
+
+li a:active {
+    background-color: none;
+}
+
+a {
+    color: black;
+}
+
+
+/*sliding images styles*/
+
+#demo {
+    margin-top: -3.5%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 50%;
+    margin-top: -8%;
+}
+
+@keyframes carousel-inner {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+.carousel-inner {
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+
+/*responsiveness*/
+
+@media screen {
+    #leftbox {
+        height: 100%;
+        width: 100%
+    }
+    #middlebox {
+        height: 100%;
+        width: 100%
+    }
+    .rightbox {
+        height: 100%;
+        width: 100%
+    }
+}
+
+
+/* contact information styles */
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26.5px;
+    text-align: center;
+}
+
+#leftbox {
+    float: left;
+    margin-left: 22%;
+    width: 18%;
+    height: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#middlebox {
+    float: left;
+    margin-left: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 15%;
+    height: 280px;
+}
+
+.rightbox {
+    float: right;
+    margin-right: 23%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 15%;
+    height: 280px;
+}
+
+
+/*button styles*/
+
+button {
+    background-color: rgb(132, 196, 132);
+    border-radius: 5px;
+    width: 60%;
+    height: 15%;
+    color: white;
+    border-color: white;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+.final {
+    margin-top: 18.5em;
+    float: centre;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    margin-left: 20%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+/* product gallery container styles */
+
+.gallery img {
+    border: 5px gray;
+}
+
+.container-fluid {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.pagination {
+    margin-left: 70%;
+    color: black;
+}
+
+.square {
+    border-radius: 3px;
+}
+
+
+/*footer styles*/
+
+footer {
+    background-color: black;
+    text-align: center;
+}
